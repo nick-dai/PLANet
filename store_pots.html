@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html id="buying">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>pots</title>
+	<!-- Optimize for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- jQuery -->
+	<script type="text/javascript" src="jquery-v2.1.4/js/jquery-2.1.4.min.js"></script>
+	<!-- Animate.css -->
+	<link type="text/css" rel="stylesheet" href="Animate.css/animate.css">
+	<!-- Sweet Alert -->
+	<link type="text/css" rel="stylesheet" href="sweetalert2/sweetalert2.css">
+	<script type="text/javascript" src="sweetalert2/sweetalert2.min.js"></script>
+	<!-- Owl-Caruosel -->
+	<link type="text/css" rel="stylesheet" href="owl.carousel-v1.3.2/owl.carousel.css">
+	<link type="text/css" rel="stylesheet" href="owl.carousel-v1.3.2/owl.theme.css">
+	<link type="text/css" rel="stylesheet" href="owl.carousel-v1.3.2/owl.transitions.css">
+	<script type="text/javascript" src="owl.carousel-v1.3.2/owl.carousel.min.js"></script>
+	<!-- Custom stylesheets & scripts -->
+	<script type="text/javascript" src="js/database.js"></script>
+	<script type="text/javascript" src="js/store_items.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/store.css">
+	<script type="text/javascript" src="js/init.js"></script>
+	<script type="text/javascript" src="js/store.js"></script>
+</head>
+
+<body height="100%" style="overflow:hidden">
+	<div id="items-img">
+		<img id="changing-circle" src="img/store/light.png">
+		<img id="gear" src="img/store/circle.png">
+		<div id="cupsale" class="owl-carousel animated bounceInDown">
+			<img onmousedown="purchase(0)" src="img/store/cup1.png" class="items">
+			<img onmousedown="purchase(1)" src="img/store/cup2.png" class="items">
+			<img onmousedown="purchase(2)" src="img/store/cup3.png" class="items">
+			<img onmousedown="purchase(3)" src="img/store/cup4.png" class="items">
+			<img onmousedown="purchase(4)" src="img/store/cup5.png" class="items">
+			<img onmousedown="purchase(5)" src="img/store/cup6.png" class="items">
+		</div>
+	</div>
+	<div id="items-txt"></div>
+	<div id="work"></div> 
+	<div id="show0"></div>
+	<div id="show1"></div>
+	<div id="show2"></div>
+</body>
+
+</html>

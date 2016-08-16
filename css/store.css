@@ -1,0 +1,242 @@
+body, html {
+	height: 100%;
+}
+#items-img {
+	position: relative;
+	background-image:url("../img/store/cbg2.png");
+	background-repeat: no-repeat;
+	background-size: 270px, 270px;
+	background-position: center; 
+	z-index: 0;
+	margin-bottom: 1em;
+	height: 50%;
+}
+#changing-circle {
+	/* Horizontally and vertically center */
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 220px;
+	width: 220px;
+	z-index: 0;
+}
+#gear {
+	/* Horizontally and vertically center */
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/* Animation */
+	-webkit-animation: spin 3s linear infinite;
+	-moz-animation: spin 3s linear infinite;
+	animation: spin 3s linear infinite;
+	z-index:0;
+	height: 200px;
+	width: 200px;
+}
+#items-txt {
+	width: 65%;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-family: Microsoft JhengHei;
+}
+#name {
+	margin: 0em auto 0.5em auto;
+	background-color: #C7FE94;
+	width: 65%;
+	border-radius: 5px;
+	color: #51513D;
+	font-size: 20px;
+	font-weight: bold;
+}
+#price {
+	margin-bottom: 0.5em;
+}
+.animation-enlarge {
+	-webkit-animation: enlarge 0.5s infinite linear;
+	-moz-animation: enlarge 0.5s infinite linear;
+	-o-animation: enlarge 0.5s infinite linear;
+	animation: enlarge 0.5s infinite linear;
+}
+/* Animation: Spin */
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	90% {
+		-webkit-transform: rotate(50deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
+	}
+}
+@-moz-keyframes spin {
+	0% {
+		-moz-transform: rotate(0deg);
+	}
+	90% {
+		-moz-transform: rotate(50deg);
+	}
+	100% {
+		-moz-transform: rotate(0deg);
+	}
+}
+@-o-keyframes spin {
+	0% {
+		-o-transform: rotate(0deg);
+	}
+	90% {
+		-o-transform: rotate(50deg);
+	}
+	100% {
+		-o-transform: rotate(50deg);
+	}
+}
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	90% {
+		transform: rotate(50deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+/* Animation: Enlarge */
+@-moz-keyframes enlarge {
+	100% {
+		-moz-transform: scale(1.35);
+		opacity: 0;
+	}
+}
+@-webkit-keyframes enlarge {
+	100% {
+		-webkit-transform: scale(1.35);
+		opacity: 0;
+	}
+}
+@keyframes enlarge {
+	100% {
+		-webkit-transform: scale(1.35);
+		transform: scale(1.35);
+		opacity: 0;
+	}
+}
+.sweet-overlay {
+	background-color: rgba(0, 0, 0, 0);
+}
+#show0{  
+	background-color:#B4EBCA;
+	color:#456675;
+	border-radius: 8%;
+	padding-right:5px;
+	padding-left:5px;
+	width: auto;  
+    height: auto;  
+	position:absolute;
+	left:20px ;
+	top:430px;
+	
+}
+#show1{
+	background-color:#B4EBCA;
+	color:#456675;
+	border-radius: 8%;
+	padding-right:5px;
+	padding-left:5px;
+	width: auto;  
+    height: auto;  
+	position:absolute;
+	left:60px ;
+	top:430px;
+} 
+#show2{  
+	background-color:#B4EBCA;
+	color:#456675;
+	border-radius: 8%;
+	padding-right:5px;
+	padding-left:5px;
+	width: auto;  
+    height: auto;  
+	position:absolute;
+	left:100px ;
+	top:430px;
+} 
+.work1{
+	width: 8%;  
+    height: auto;  
+	position:absolute;
+	left:20px ;
+	top:470px;
+	  display: inline-block;
+} 
+.work2{
+	width: 8%;  
+    height: auto;  
+	position:absolute;
+	left:60px ;
+	top:470px;
+	 display: inline-block;
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+} 
+.work3{
+	width: 8%;  
+    height: auto;  
+	position:absolute;
+	left:100px ;
+	top:470px;
+	 display: inline-block;
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+} 
+#cupsale {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+	margin: auto;
+	width: 50%;
+	height: 50%;
+}
+
+.items {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.button {
+	background-color: rgba(0,0,0,0);
+	text-align: center;
+	padding: 5px;
+	font-size: 18px;
+	width: calc(25% - 3.75px);
+	transition: all 0.4s;
+	vertical-align: middle;
+}
+.with-right-margin {
+	margin-right: 5px;
+}
+.btn-group {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 100%;
+}
+#money {
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-left: 0.5em;
+}
+#store-pots-btn {
+	background-color: rgb(219, 84, 97);
+}

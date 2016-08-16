@@ -1,0 +1,78 @@
+.button {
+	padding: 7px;
+	color: #6496c8;
+	background: rgba(0,0,0,0);
+	border: solid 4px #6496c8;
+}
+.button:hover,
+section.border button.hover {
+	border-color: #346392;
+	color: #346392;
+}
+.button:active,
+section.border button.active {
+	border-color: #8fce96;
+	color: #8fce96;
+}
+.wordy {
+	padding: 7px;
+	color: #6496c8;
+	background: rgba(0,0,0,0);
+	border: solid 4px #6496c8;
+	text-align: center;
+	font-size: 100%;
+}
+.namey {
+	padding: auto;
+	color: #6496c8;
+	background: rgba(0,0,0,0);
+	border: solid 4px #6496c8;
+	text-align: center;
+	font-size: 100%;
+	margin-right: 0%;
+	width: 48%
+}
+.strong {
+	padding: auto;
+	color: #6eb56c;
+	background: rgba(0,0,0,0);
+	border: solid 4px #6eb56c;
+	text-align: center;
+	font-size: 100%;
+	margin-right: 0%;
+	width: 48%;
+}
+tory {
+	opacity: 0.5;
+	padding: auto;
+	color: #ffffff;
+	background: #000000;
+	border: solid 5px #000000;
+	border-color: rgba(50%,50%,50%,0);
+	text-align: left;
+	font-size: 80%;
+	margin-right: 0%;
+	width: 48%;
+	height: 30%;
+}
+.weak {
+	padding: auto;
+	color: #ff667d;
+	background: rgba(0,0,0,0);
+	border: solid 4px #ff667d;
+	text-align: center;
+	font-size: 100%;
+	margin-right: 0%;
+	width: 48%;
+}
+.swiper-container {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
